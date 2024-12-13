@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сетевое и системное администрирование</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Сетевое и системное администрирование</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Коммутаторы</h2>
+            <p>Коммутаторы — это устройства, которые соединяют различные устройства в сети, обеспечивая их взаимодействие.</p>
+            <img src="{{ url_for('static', filename='img/switch.jpeg') }}" alt="Коммутатор" />
+            <h3>Типы коммутаторов</h3>
+            <table>
+                <tr>
+                    <th>Тип</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td>Управляемый</td>
+                    <td>Позволяет управлять сетевым трафиком и конфигурацией.</td>
+                </tr>
+                <tr>
+                    <td>Неуправляемый</td>
+                    <td>Простое устройство без возможности настройки.</td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 Сетевое и системное администрирование</p>
+    </footer>
+</body>
+</html>
